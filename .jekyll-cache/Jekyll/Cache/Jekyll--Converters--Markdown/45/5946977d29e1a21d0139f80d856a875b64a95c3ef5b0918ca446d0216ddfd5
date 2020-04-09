@@ -1,0 +1,40 @@
+I"n<p>We’re pleased to share news about Kubernetes 1.18, this is first release of 2020!</p>
+
+<p>Kubernetes 1.18 consists of 38 enhancements 15 enhancements are moving to stable, 11 enhancements in beta, and 12 enhancements in alpha!</p>
+
+<h2 id="1-kubernetes-topology-manager-moves-to-beta">1. Kubernetes Topology Manager Moves to Beta</h2>
+<p>A beta feature of Kubernetes in release 1.18, the Topology Manager feature enables NUMA alignment of CPU and devices (such as SR-IOV VFs) that will allow your workload to run in an environment optimized for low-latency. Prior to the introduction of the Topology Manager, the CPU and Device Manager would make resource allocation decisions independent of each other. This could result in undesirable allocations on multi-socket systems, causing degraded performance on latency critical applications.</p>
+
+<h2 id="2-serverside-apply-introduces-beta-2">2. Serverside Apply Introduces Beta 2</h2>
+<p>Server-side Apply was promoted to Beta in 1.16, but is now introducing a second Beta in 1.18. This new version will track and manage changes to fields of all new Kubernetes objects, allowing you to know what changed your resources and when.</p>
+
+<h2 id="3-extending-ingress-and-replacing-a-deprecated-annotation-with-ingressclass">3. Extending Ingress and replacing a deprecated annotation with IngressClass</h2>
+<p>In Kubernetes 1.18, there are two significant additions to Ingress: A new <strong>pathType</strong> field and a new <strong>IngressClass</strong> resource. The pathType field allows specifying how paths should be matched. In addition to the default <strong>ImplementationSpecific</strong> type, there are new Exact and Prefix path types.</p>
+
+<p>The <strong>IngressClass</strong> resource is used to describe a type of Ingress within a Kubernetes cluster. Ingresses can specify the class they are associated with by using a new <strong>ingressClassName</strong> field on Ingresses. This new resource and field replace the deprecated <strong>kubernetes.io/ingress.class</strong> annotation.</p>
+
+<h2 id="4-sig-cli-introduces-kubectl-alpha-debug">4. SIG-CLI introduces kubectl alpha debug</h2>
+<p>SIG-CLI was debating the need for a debug utility for quite some time already. With the development of ephemeral containers, it became more obvious how we can support developers with tooling built on top of kubectl exec. The addition of the <strong>kubectl alpha debug</strong> command (it is alpha but your feedback is more than welcome), allows developers to easily debug their Pods inside the cluster. We think this addition is invaluable. This command allows one to create a temporary container which runs next to the Pod one is trying to examine, but also attaches to the console for interactive troubleshooting.</p>
+
+<h2 id="5-introducing-windows-csi-support-alpha-for-kubernetes">5. Introducing Windows CSI support alpha for Kubernetes</h2>
+<p>The alpha version of CSI Proxy for Windows is being released with Kubernetes 1.18. CSI proxy enables CSI Drivers on Windows by allowing containers in Windows to perform privileged storage operations.</p>
+
+<h2 id="major-changes">Major Changes</h2>
+<ul><li><a href="https://github.com/kubernetes/enhancements/issues/752" target="_blank">EndpointSlice API</a></li><li><a href="https://github.com/kubernetes/enhancements/issues/1020" target="_blank">Moving kubectl package code to staging</a></li><li><a href="https://github.com/kubernetes/enhancements/issues/1513" target="_blank">CertificateSigningRequest API</a></li><li><a href="https://github.com/kubernetes/enhancements/issues/1539" target="_blank">Extending Hugepage Feature</a></li><li><a href="https://github.com/kubernetes/enhancements/issues/1601" target="_blank">client-go signature refactor to standardize options and context handling</a></li></ul>
+
+<p>EndpointSlice API
+Moving kubectl package code to staging
+CertificateSigningRequest API
+Extending Hugepage Feature
+client-go signature refactor to standardize options and context handling</p>
+
+<h2 id="release-notes">Release Notes</h2>
+<p>Check out the full details of the Kubernetes 1.18 release in our <a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.18.md" target="_blank">release notes</a>.</p>
+
+<h2 id="availability">Availability</h2>
+<p>Kubernetes 1.18 is available for download on <a href="https://github.com/kubernetes/kubernetes/releases/tag/v1.18.0" target="_blank">GitHub</a>. To get started with Kubernetes, check out these <a href="https://kubernetes.io/docs/tutorials/" target="_blank">interactive tutorials</a> or run local Kubernetes clusters using Docker container “nodes” with <a href="https://kind.sigs.k8s.io/" target="_blank">kind</a>. You can also easily install 1.18 using <a href="https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/" target="_blank">kubeadm</a>.</p>
+
+<h2 id="release-logo">Release Logo</h2>
+<p><img src="/images/blog/kubernetes-release-logo.png" width="50%" /></p>
+
+:ET
