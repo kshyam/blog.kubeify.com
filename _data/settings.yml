@@ -10,8 +10,8 @@ description: kubeify blog is our learning and experience while implementations
 author:
   name: Shyam Mohan
   image: undraw_elements.svg
-  say-hello: Kubeify Blog
-  bio: Expert insight, <strong>best practices</strong> and advice on <strong>Cloud Native</strong> strategy & adoption
+  say-hello: <b>Kubeify Blog</b>
+  bio: Expert insight, <b>Best Practices</b> and advice on <b>Cloud Native</b>, Docker and Kubernetes based DevOps strategy adoption.
 
 #-------------------------------
 # Contact links
