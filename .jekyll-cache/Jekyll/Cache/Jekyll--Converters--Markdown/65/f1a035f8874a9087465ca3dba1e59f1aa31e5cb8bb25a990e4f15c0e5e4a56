@@ -1,0 +1,108 @@
+I"v<h2 id="what-is-cloud-native-devops">What is Cloud Native DevOps?</h2>
+
+<p>Based on the name, cloud native DevOps may seem to running containerized application in the cloud</p>
+
+<p>Cloud Native DevOps is a method to structure your teams to take advantage of the automation and scalability that cloud native technologies like containers and Kubernetes offer</p>
+
+<h3 id="cloud-native-devops--cloud-native-apps--devops">cloud native DevOps = cloud native apps + DevOps.</h3>
+
+<p>Cloud native technologies are designed to be:</p>
+
+<p>Resilient. Embracing failures instead of trying to prevent them, taking advantage of the dynamic nature of running on a platform.</p>
+
+<p>Agile. Allowing for fast deployments and quick iterations.</p>
+
+<p>Operable. Adding control of application life cycles from inside the application instead of relying on external processes and monitors.</p>
+
+<p>Observable. Providing information to answer questions about the application state.</p>
+
+<h4 id="we-can-define-cloud-native-devops-as-a-set-of-practices-that-involves-continuous-improvement-automation-cross-functional-teams-better-alignment-with-business-needs">We can define Cloud Native DevOps as a set of practices that involves continuous improvement, automation, cross-functional teams, better alignment with business needs.</h4>
+
+<p>These principles apply to people, tools, culture, and process, not on the actual application env cloud or on-prem, apps can be on public cloud, private cloud or on-prem, end gole to achieve scalable, reliable and high available system by construction.</p>
+
+<p><img src="/images/blog/devops-journey.png" alt="" /></p>
+
+<h3 id="how-to-implement-cloud-native-devops">How to implement Cloud Native DevOps?</h3>
+
+<ol>
+  <li>Adopt Microservices Patterns</li>
+  <li>Using Containerization</li>
+  <li>Adopt Container Orchestration - Kubernetes</li>
+  <li>Write 12-factor Apps</li>
+  <li>Increase Automation in CI/CD pipelines</li>
+  <li>Exposing health check</li>
+  <li>Collecting telemetry data</li>
+</ol>
+
+<h3 id="what-are-advantages-of-cloud-native-devops">What are advantages of Cloud Native DevOps?</h3>
+
+<ol>
+  <li>Lowering the cloud costs</li>
+  <li>Faster deployments</li>
+  <li>Better control over IT resources</li>
+  <li>Achieving true DevOps</li>
+  <li>Speedy innovation and Scalability</li>
+</ol>
+
+<h3 id="what-are-cloud-native-devops-process--tools">what are Cloud Native DevOps Process &amp; tools?</h3>
+
+<ol>
+  <li>Source Code Management (SCM)</li>
+  <li>Container Registry</li>
+  <li>Orchestration and Schedulers</li>
+  <li>Continuous Integration / Continuous Deployment(CI/CD)</li>
+  <li>Monitoring</li>
+  <li>Logging</li>
+  <li>Security</li>
+  <li>Storage/Volume Management</li>
+  <li>Networking</li>
+  <li>Service Discovery</li>
+  <li>Builds</li>
+  <li>Management</li>
+</ol>
+
+<h3 id="1-source-code-management-scm">1. Source Code Management (SCM)</h3>
+<p>SCM tool selection is the first step in Cloud Native DevOps or any DevOps Process. My Suggestion will be go with the GIT based SCM system. these days GIT based system are veru populer. you have follow option as persent in the marker.</p>
+
+<p><img src="/images/blog/source-code-management.png" alt="" /></p>
+
+<p>Above source code management systems can be used as</p>
+<ul>
+  <li>Hosted system like Github, Gitlab or bitbucket</li>
+  <li>Self Hosted systems like Gitlab etc.</li>
+</ul>
+
+<h3 id="2-container-registry">2. Container Registry</h3>
+<p>You have develped your application as microservices so you need any container tool like Docker to deliver your application, while using Docker you will create Docker Images, So you will need Container Registry system to store you images.</p>
+
+<p>You can assume container registry system same like your source code management tools where you can host you source code, in simmiler manner you can store you docker images on following Container Registry.</p>
+
+<p><img src="/images/blog/container-registry.png" alt="" /></p>
+
+<p>More tools can be found at <a href="https://landscape.cncf.io/category=container-registry&amp;format=card-mode&amp;grouping=category" target="_blank">https://landscape.cncf.io/</a></p>
+
+<h3 id="3-orchestration-and-schedulers">3. Orchestration and Schedulers</h3>
+<p>Kubernetes is one of the most used and populer tool to adopt as orchestration system. there are few more tools you can find below in the image like Docker Swarm form Docker, Amazon Elastic Container Service (ECS), Apache Mesos form Apache Software Foundation, Azure Service Fabric and Azure container services form Microsoft,</p>
+
+<p>Kubernetes</p>
+
+<p>Cloud Native Computing Foundation (CNCF)</p>
+
+<p>Nomad
+HashiCorp</p>
+
+<p><img src="/images/blog/orchestration-and-schedulers.png" alt="" /></p>
+
+<h3 id="4-continuous-integration--continuous-deploymentcicd">4. Continuous Integration / Continuous Deployment(CI/CD)</h3>
+
+<div class="cta-bg-primary">
+  <div class="container">
+    <div class="text-center text-white">
+      <h4>Ready to get started?</h4>
+      <p>Let us know what you are working on and we will help you get started with Cloud Native DevOps.</p>
+      <a href="https://kubeify.com/schedule-meeting" class="btn btn-danger btn-rounded" target="_blank">SCHEDULE A MEETING</a>
+    </div>
+  </div>
+</div>
+
+:ET
