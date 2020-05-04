@@ -3,7 +3,7 @@ layout: post
 title:  What's new in Kubernetes 1.18
 date:   2020-03-25 15:01:35 +0300
 image:  /blog/kubernetes.gif
-tags:   kubernetes news release
+tags:   Kubernetes News Release
 ---
 We’re pleased to share news about Kubernetes 1.18, this is first release of 2020! 
 
