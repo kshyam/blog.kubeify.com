@@ -6,7 +6,7 @@
     <div class="article__wrapper">
 
         {% if post.image %}
-          <a href="{{post.url | prepend: site.baseurl}}" class="article__image" style="background-image: url({{site.baseurl}}/images/{{post.image}})">
+          <a href="{{post.url | prepend: site.baseurl}}" class="article__image" style="background-image: url({{site.baseurl}}/images/{{post.image}}); width: 500px;">
           </a>
         {% else %}
           {% assign without-image = 'article-without-image' %}
@@ -23,13 +23,13 @@
           {% else %}
           {% endif %}
           </div>
-      
+
           <h2 class="article__title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
           </h2>
-      
+
           <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}</p>
-          
+
           <div class="article__footer">
             <div class="article__meta">
               <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
@@ -41,7 +41,7 @@
         </div>
 
       </div>
-      
+
   </div>
 </div>
 <!-- end article -->
