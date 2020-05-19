@@ -45,3 +45,5 @@ client-go signature refactor to standardize options and context handling
 ## Release Logo
 <img src="/images/blog/kubernetes-release-logo.png" width="50%">
 
+{% include cta.html %}
+
