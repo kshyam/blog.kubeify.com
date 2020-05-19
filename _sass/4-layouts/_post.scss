@@ -201,7 +201,6 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      background: $light-gray;
       transition: .35s ease-in-out;
       &:hover {
         opacity: 0.9;
@@ -209,7 +208,7 @@
       &:after {
         content: "";
         display: table;
-        width: 100%;
+        width: 50%;
         padding-bottom: 65%;
       }
     }
@@ -248,7 +247,7 @@
 
   .prev__excerpt,
   .next__excerpt {
-    width: 100%;
+    width: 50%;
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
