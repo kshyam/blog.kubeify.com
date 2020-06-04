@@ -386,7 +386,7 @@ More tools can be found at <a href="https://landscape.cncf.io/category=security-
 * Tilt from Windmill Engineering
 
 <div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/hjPB4cKLbu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/hjPB4cKLbu0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 {% include cta.html %}

@@ -10,7 +10,7 @@ EBOOK: Kubernetes patterns for designing cloud-native apps
 <br>
 Learn specific Kubernetes patterns for cloud-native and rapid application development.
 
-<iframe src="https://blog.kubeify.com/kubernetes-patterns-ebook.pdf" class="responsive-iframe"></iframe>
+<iframe src="/ebooks/kubernetes-patterns-ebook.pdf" class="responsive-iframe"></iframe>
 
 <br>
 You can read here or download form Redhat website <a href="https://www.redhat.com/en/resources/oreilly-kubernetes-patterns-cloud-native-apps" target="_blank">https://www.redhat.com/en/resources/oreilly-kubernetes-patterns-cloud-native-apps</a>
