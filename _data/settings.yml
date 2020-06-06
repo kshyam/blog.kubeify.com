@@ -9,7 +9,8 @@ description: kubeify blog is our learning and experience while implementations
 # Author Settings
 author:
   name: Shyam Mohan
-  image: undraw_elements.svg
+  # image: undraw_elements.svgdocker-and-kubernetes.gif
+  image: kubernetes-service-providers.svg
   say-hello: <b>Kubeify Blog</b>
   bio: Expert insight, <b>Best Practices</b> and advice on <b>Cloud Native</b>, Docker and Kubernetes based DevOps strategy adoption.
 
