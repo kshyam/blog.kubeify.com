@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Getting Started with Cloud Native DevOps
+description: We can define Cloud Native DevOps as a set of practices that involves continuous improvement, automation, cross-functional teams, better alignment with business needs.
 date:   2020-04-25 15:01:35 +0300
 image:  /blog/cloud-native-devops.png
 tags:   CloudNative DevOps Kubernetes Docker CICD

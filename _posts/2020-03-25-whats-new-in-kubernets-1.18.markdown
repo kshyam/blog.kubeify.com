@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  What's new in Kubernetes 1.18
+description: Kubernetes 1.18 consists of 38 enhancements 15 enhancements are moving to stable, 11 enhancements in beta, and 12 enhancements in alpha!
 date:   2020-03-25 15:01:35 +0300
 image:  /blog/kubernetes.gif
 tags:   Kubernetes News Release

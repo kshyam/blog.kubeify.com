@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Getting Started with Docker and Kubernetes Part 2
+description: Mr Dinesh Yadav (Founder & CTO at Razorops) has coverd good explanation and hands-on Docker and Kubernets 102.
 date:   2020-06-06 15:01:35 +0300
 image:  /blog/getting-started-with-docker-and-kubernetes-part-2.png
 tags:   CloudNative DevOps Kubernetes Docker 
