@@ -11,7 +11,7 @@ Container Security:  Fundamental Technology Concepts that Protect Containerized 
 
 An O'Reilly Animal Series Book written by Liz Rice, VP of Open Source at Aqua Security
 
-<iframe src="/ebooks/container-security.pdf" class="responsive-iframe"></iframe>
+<img src="/images/blog/container-security-ebook-by-Liz-Rice.png" alt="container-security-ebook-by-Liz-Rice">
 
 <br>
 You can read here or download form Aqua website <a href="https://info.aquasec.com/container-security-book" target="_blank">https://info.aquasec.com/container-security-book</a>
